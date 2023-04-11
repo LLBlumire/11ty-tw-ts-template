@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ "src/static": "/" });
+    eleventyConfig.addPassthroughCopy({ "dist/tw": "/" });
     return {
         dir: {
             input: "src",

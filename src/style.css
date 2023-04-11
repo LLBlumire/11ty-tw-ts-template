@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* Variables */
+    
+    /* Typography */
+}
+
+@layer components {
+    /* Composition */
+
+    /* Components */
+}
+
+@layer utilities {
+    /* Custom utilities */
+
+    /* Exceptions */
+}
