@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+	<head>
+        <meta charset="utf-8">
+        <meta name="color-scheme" content="dark light">
+		<title>{{title if title else "Website Title" }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/favicon.ico" sizes="any"><!-- 32×32 -->
+        <link rel="icon" href="/icon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+        <link rel="manifest" href="/manifest.webmanifest">
+        <link rel="stylesheet" href="/style.css">
+	</head>
+<body class="text-dark bg-light dark:text-light dark:bg-dark">
+    {{ content | safe }}
+</body>
+</html>
